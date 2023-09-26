@@ -44,7 +44,7 @@ cp "resources/retroarch.cfg" "romfs"
 sed -i "s/ROMNAME/$SHORT_NAME/g" "romfs/retroarch.cfg"
 
 echo "Building RomFS"
-resources/3dstool -cvtf romfs romfs.bin --romfs-dir ./romfs &> /dev/null
+resources/3dstool -cvtf romfs romfs.bin --romfs-dir ./romfs
 
 echo "Building CIA"
 resources/makerom-linux \

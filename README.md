@@ -2,6 +2,7 @@
 Package PS1 roms into installable CIA files.
 
 ## Usage
+`chmod +x create.sh && chmod +x resources/*`
 `./create.sh [ROM] [ICON] [BANNER] [SOUND]`  
 #### ROM - Path to your PS1 rom. Must be in CHD format.
 #### ICON - Path to your icon. Must be 48x48 in PNG format.
